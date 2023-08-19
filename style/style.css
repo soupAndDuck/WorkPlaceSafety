@@ -1,10 +1,10 @@
-p{
+body{
   font-family: Roboto, Arial;  
-  font-size: 100px;
 }
 
 .header{
   align-text: center;
   display: grid;
   font-weight: bold;
+  font-size: 100px;
 }
