@@ -15,7 +15,7 @@ nav{
    
 }
 a:hover{
-    color: light gray;
+    color: red;
     transition: color 1s;
     cursor: pointer;
 }
