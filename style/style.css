@@ -4,7 +4,7 @@ html{
 body{
     margin: 0;
     padding: 0;
-    font-family: Arial;
+    font-family: Arial, serif;
 }
 nav{
     width: 100%;
@@ -14,7 +14,6 @@ nav{
     overflow: hidden;
     position: fixed;
     top:0;
-   
 }
 a:hover{
     color: red;
@@ -42,7 +41,7 @@ a{
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
-   
+
 }
 #section1{
     height: 700px;
@@ -67,6 +66,5 @@ h1 {
     margin: 100px;
     text-align: center;
     padding: 0;
-    
-}
 
+}
