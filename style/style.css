@@ -8,6 +8,8 @@ body{
 }
 nav{
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background: #262626;
     overflow: hidden;
     position: fixed;
@@ -27,7 +29,6 @@ ul{
     margin: 0;
     list-style: none;
     text-align: center;
-    gap: 20px;
 }
 li{
     display: inline-block;
