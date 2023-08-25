@@ -63,13 +63,27 @@ a{
     font-size: 20px;
 }
 
-#section2{
+#section2 {
+    box-sizing: border-box;
     height: 3500px;
     background: orange;
-    display:inline-block;
+    display: inline-block;
     width: 100%;
     text-align: center;
 }
+
+#section2 p {
+    font-size: 20px;
+}
+
+#section2 h1 {
+    font-size: 24px;
+}
+
+#section2 h2 {
+    font-size: 20px;
+}
+
 #section3{
     height: 1000px;
     background: orange;
