@@ -16,7 +16,7 @@ nav{
     top:0;
 }
 a:hover{
-    color: red;
+    color: orange;
     transition: color 1s;
     cursor: pointer;
 }
@@ -45,20 +45,20 @@ a{
 }
 #section1{
     height: 700px;
-    background: pink;
+    background: orange;
     display:inline-block;
     width: 100%;
 
 }
 #section2{
     height: 700px;
-    background: pink;
+    background: orange;
     display:inline-block;
     width: 100%;
 }
 #section3{
     height: 700px;
-    background: pink;
+    background: orange;
     display:inline-block;
     width: 100%;
 }
