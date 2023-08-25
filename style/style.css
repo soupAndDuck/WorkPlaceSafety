@@ -1,4 +1,4 @@
-html{
+tml{
     scroll-behavior: smooth;
 }
 body{
@@ -44,20 +44,21 @@ a{
 
 }
 #section1{
-    height: 700px;
+    height: 600px;
     background: orange;
     display:inline-block;
     width: 100%;
-
+    text-align: center;
 }
 #section2{
-    height: 700px;
+    height: 3500px;
     background: orange;
     display:inline-block;
     width: 100%;
+    text-align: center;
 }
 #section3{
-    height: 700px;
+    height: 1000px;
     background: orange;
     display:inline-block;
     width: 100%;
