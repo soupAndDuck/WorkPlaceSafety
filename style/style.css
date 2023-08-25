@@ -43,13 +43,26 @@ a{
     font-weight: bold;
 
 }
-#section1{
-    height: 600px;
+
+#section1 {
+    box-sizing: border-box;
+    height: 700px;
     background: orange;
     display:inline-block;
     width: 100%;
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#section1 h2 {
     text-align: center;
 }
+
+#section1 p {
+    font-size: 20px;
+}
+
 #section2{
     height: 3500px;
     background: orange;
