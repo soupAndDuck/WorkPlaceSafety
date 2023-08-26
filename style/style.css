@@ -65,11 +65,13 @@ a{
 
 #section2 {
     box-sizing: border-box;
-    height: 4200px;
+    height: 4500px;
     background: orange;
     display: inline-block;
     width: 100%;
-    text-align: center;
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 #section2 p {
