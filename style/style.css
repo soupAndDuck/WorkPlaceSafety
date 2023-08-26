@@ -46,7 +46,7 @@ a{
 
 #section1 {
     box-sizing: border-box;
-    height: 700px;
+    height: 800px;
     background: orange;
     display:inline-block;
     width: 100%;
@@ -65,7 +65,7 @@ a{
 
 #section2 {
     box-sizing: border-box;
-    height: 3500px;
+    height: 4000px;
     background: orange;
     display: inline-block;
     width: 100%;
