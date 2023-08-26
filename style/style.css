@@ -74,6 +74,39 @@ a{
     padding-right: 150px;
 }
 
+.container1 {
+
+}
+
+.con1-icon {
+    width: 40%;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0 5px;
+    width: 100%;
+}
+
+.row-config {
+    flex-wrap: wrap;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 5px;
+}
+
+.col-config {
+    width: 20%;
+    margin: 5px 0;
+}
+
 #section2 p {
     font-size: 20px;
 }
