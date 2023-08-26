@@ -1,4 +1,4 @@
-tml{
+html{
     scroll-behavior: smooth;
 }
 body{
@@ -65,7 +65,7 @@ a{
 
 #section2 {
     box-sizing: border-box;
-    height: 4000px;
+    height: 4200px;
     background: orange;
     display: inline-block;
     width: 100%;
