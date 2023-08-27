@@ -9,7 +9,6 @@ body{
 nav{
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     background: #262626;
     overflow: hidden;
     position: fixed;
@@ -29,9 +28,14 @@ ul{
     list-style: none;
     text-align: center;
 }
-li{
+.nav_links{
+    list-style: none;
+    
+}
+.nav_links li{
     display: inline-block;
-    text-align: left;
+    padding: 0px 0%;
+    text-align: justify;
 }
 a{
     padding: 20px;
@@ -46,7 +50,7 @@ a{
 
 #section1 {
     box-sizing: border-box;
-    height: 800px;
+    height: 750px;
     background: orange;
     display:inline-block;
     width: 100%;
@@ -147,6 +151,34 @@ h1 {
     text-align: center;
     padding: 0;
 
+}
+.mytabs{
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+    
+}
+.mytabs input[type="radio"]{
+    display: none;
+}
+.mytabs label{
+    padding: 25px;
+    background: gray;
+    font-weight: bold;
+}
+.mytabs .tab{
+    width: 100%;
+    padding: 20px;
+    background: pink;
+    order: 1;
+    display: none;
+}
+.mytabs input[type = 'radio']:checked + label + .tab{
+    display: block;
+} 
+.mytabs input[type = 'radio']:checked + label{
+    background: yellow;
 }
 @font-face {
     font-family: Roboto-Regular;
