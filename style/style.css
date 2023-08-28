@@ -151,12 +151,12 @@ h1 {
     padding: 0;
 
 }
-.mytabs input:hover{
+.mytabs label:hover{
     background: orange;
     transition: color 1s;
     cursor: pointer;
 }
-.mytabs input:active{
+.mytabs label:active{
     opacity: 0.7;
 }
 .mytabs{
