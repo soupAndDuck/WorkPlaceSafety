@@ -169,7 +169,7 @@ h1 {
 
 }
 .mytabs label:hover{
-    background: orange;
+    background: light yellow;
     transition: color 1s;
     cursor: pointer;
 }
