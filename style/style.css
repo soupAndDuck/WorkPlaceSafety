@@ -44,10 +44,27 @@ a{
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
-
+}
+#section1{
+    height: 600px;
+    background: green;
+    display:inline-block;
+    width: 100%;
+    text-align: left;
+    
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    color: blue;
 }
 
-#section1 {
+.content p{
+    text-align: center;
+    font-size: 30px;
+}
+
+#section2 {
     box-sizing: border-box;
     height: 750px;
     background: orange;
@@ -58,15 +75,15 @@ a{
     padding-right: 150px;
 }
 
-#section1 h2 {
+#section2 h2 {
     text-align: center;
 }
 
-#section1 p {
+#section2 p {
     font-size: 20px;
 }
 
-#section2 {
+#section3 {
     box-sizing: border-box;
     height: 4500px;
     background: orange;
@@ -110,19 +127,19 @@ a{
     margin: 5px 0;
 }
 
-#section2 p {
+#section3 p {
     font-size: 20px;
 }
 
-#section2 h1 {
+#section3 h1 {
     font-size: 24px;
 }
 
-#section2 h2 {
+#section3 h2 {
     font-size: 20px;
 }
 
-#section3{
+#section4{
     box-sizing: border-box;
         height: 1000px;
         background: orange;
@@ -138,7 +155,7 @@ h1 {
     padding: 0;
 
 }
-#section4{
+#section5{
      height: 1000px;
      background: orange;
      display:inline-block;
