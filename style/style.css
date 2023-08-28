@@ -66,7 +66,7 @@ a{
 
 #section2 {
     box-sizing: border-box;
-    height: 750px;
+    height: auto;
     background: orange;
     display:inline-block;
     width: 100%;
@@ -77,10 +77,19 @@ a{
 
 #section2 h2 {
     text-align: center;
+    font-size: 25px;
 }
 
 #section2 p {
     font-size: 20px;
+    text-align: justify;
+    text-indent: 60px;
+}
+
+img {
+    float: left;
+    margin: 5px;
+    padding-right: 20px;
 }
 
 #section3 {
