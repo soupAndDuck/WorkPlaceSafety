@@ -51,7 +51,7 @@ a{
     display:inline-block;
     width: 100%;
     text-align: left;
-    
+
 }
 .content h1{
     font-size: 60px;
@@ -98,42 +98,9 @@ img {
     background: orange;
     display: inline-block;
     width: 100%;
-    text-align: justify;
+    text-align: left;
     padding-left: 150px;
     padding-right: 150px;
-}
-
-.container1 {
-
-}
-
-.con1-icon {
-    width: 40%;
-
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    margin: 0 5px;
-    width: 100%;
-}
-
-.row-config {
-    flex-wrap: wrap;
-}
-
-.col {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    padding: 0 5px;
-}
-
-.col-config {
-    width: 20%;
-    margin: 5px 0;
 }
 
 #section3 p {
@@ -146,6 +113,10 @@ img {
 
 #section3 h2 {
     font-size: 20px;
+}
+
+.con1-icon {
+    width: 80%;
 }
 
 #section4{
@@ -188,9 +159,9 @@ h1 {
 .mytabs{
     display: flex;
     flex-wrap: wrap;
-   
-   
-    
+
+
+
 }
 .mytabs input[type="radio"]{
     display: none;
@@ -209,7 +180,7 @@ h1 {
 }
 .mytabs input[type = 'radio']:checked + label + .tab{
     display: block;
-} 
+}
 .mytabs input[type = 'radio']:checked + label{
     background: yellow;
 }
