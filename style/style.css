@@ -6,14 +6,6 @@ body{
     padding: 0;
     font-family: Arial, serif;
 }
-nav{
-    width: 100%;
-    display: grid;
-    background: #262626;
-    overflow: hidden;
-    position: fixed;
-    top:0;
-}
 a:hover{
     color: orange;
     transition: color 1s;
@@ -46,6 +38,15 @@ a{
     font-weight: bold;
 }
 @media (max-width: 1536px) and (orientation: landscape){
+    nav{
+        width: 100%;
+        display: grid;
+        background: #262626;
+        overflow: hidden;
+        position: fixed;
+        top:0;
+    }
+
 #section1{
     height: 600px;
     background: white;
@@ -160,9 +161,6 @@ h1 {
 .mytabs{
     display: flex;
     flex-wrap: wrap;
-
-
-
 }
 .mytabs input[type="radio"]{
     display: none;
@@ -207,17 +205,81 @@ h1 {
         font-family: Monsterrat-Bold, sans-serif;
     }
     body{
-        width: 100%;
-        margin: 0;
         padding: 0;
         font-family: Montserrat-Regular, sans-serif;
+        background: #FFF9A6;
     }
     nav{
-        font-family: Monsterrat-Regular, sans-serif;
+        width: 100%;
+        display: grid;
+        background: #262626;
+        overflow: hidden;
+        top:0;
+        margin: 0;
+    }
+    .con1-icon {
+        width: 90%;
+    }
+
+    .section{
+        width: 90%;
+        margin: auto;
+        background: #FFF9A6;
+    }
+    img {
+        margin: 5px;
+        padding-right: 50px;
+        display: block;
+        width: 80%;
+    }
+    table{
+        table-layout: fixed;
+        overflow-x: auto;
+        display: block;
+    }
+    .safety-first{
+        float: none;
+        padding-right: 0;
+        margin: auto;
+        border-radius: 10px;
         width: 100%;
     }
-    #section1{
+    .mytabs label:hover{
         background: #FFF9A6;
+        transition: color 1s;
+        cursor: pointer;
+    }
+    .mytabs label:active{
+        opacity: 0.7;
+    }
+    .mytabs{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mytabs input[type="radio"]{
+        display: none;
+    }
+    .mytabs label{
+        padding: 15px;
+        border-radius: 10px;
+        margin: 10px;
+        background: gray;
+        font-weight: bold;
+    }
+    .mytabs .tab{
+        width: 100%;
+        padding: 20px;
+        background: beige;
+        border-radius: 10px;
+        order: 1;
+        margin-top: 10px;
+        display: none;
+    }
+    .mytabs input[type = 'radio']:checked + label + .tab{
+        display: block;
+    }
+    .mytabs input[type = 'radio']:checked + label{
+        background: yellow;
     }
     @font-face {
         font-family: Montserrat-Regular;
