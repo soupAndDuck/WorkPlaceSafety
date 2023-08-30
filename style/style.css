@@ -25,7 +25,7 @@ ul{
 }
 .nav_links li{
     display: inline-block;
-    padding: 0px 0%;
+    padding: 0 0;
     text-align: center;
 }
 a{
@@ -135,19 +135,12 @@ h1 {
     margin: 100px;
     text-align: center;
     padding: 0;
-
 }
 #section5{
      height: 1000px;
      background: orange;
      display:inline-block;
      width: 100%;
-
-}
-h1 {
-    margin: 100px;
-    text-align: center;
-    padding: 0;
 
 }
 .mytabs label:hover{
@@ -200,22 +193,28 @@ h1 {
     src: url("../res/fonts/Roboto-Medium.ttf");
 }
 }
-@media (max-width: 640px) and (orientation: portrait){
+@media (max-width: 768px) and (orientation: portrait){
     h1{
         font-family: Monsterrat-Bold, sans-serif;
     }
     body{
-        padding: 0;
+        width: 100%;
         font-family: Montserrat-Regular, sans-serif;
         background: #FFF9A6;
     }
     nav{
-        width: 100%;
         display: grid;
-        background: #262626;
+        background: white;
         overflow: hidden;
         top:0;
-        margin: 0;
+        margin: auto;
+    }
+
+    a{
+        color: black;
+    }
+    a:hover{
+        color: lightpink;
     }
     .con1-icon {
         width: 90%;
@@ -262,14 +261,14 @@ h1 {
     .mytabs label{
         padding: 15px;
         border-radius: 10px;
-        margin: 10px;
-        background: gray;
+        margin: 4px;
+        background: white;
         font-weight: bold;
     }
     .mytabs .tab{
         width: 100%;
         padding: 20px;
-        background: beige;
+        background: peachpuff;
         border-radius: 10px;
         order: 1;
         margin-top: 10px;
@@ -279,7 +278,7 @@ h1 {
         display: block;
     }
     .mytabs input[type = 'radio']:checked + label{
-        background: yellow;
+        background: peachpuff;
     }
     @font-face {
         font-family: Montserrat-Regular;
