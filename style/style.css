@@ -45,6 +45,7 @@ a{
     text-transform: uppercase;
     font-weight: bold;
 }
+@media (max-width: 1536px) and (orientation: landscape){
 #section1{
     height: 600px;
     background: white;
@@ -199,4 +200,35 @@ h1 {
 @font-face {
     font-family: Roboto-Medium;
     src: url("../res/fonts/Roboto-Medium.ttf");
+}
+}
+@media (max-width: 640px) and (orientation: portrait){
+    h1{
+        font-family: Monsterrat-Bold, sans-serif;
+    }
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: Montserrat-Regular, sans-serif;
+    }
+    nav{
+        font-family: Monsterrat-Regular, sans-serif;
+        width: 100%;
+    }
+    #section1{
+        background: #FFF9A6;
+    }
+    @font-face {
+        font-family: Montserrat-Regular;
+        src: url("../res/fonts/Montserrat-Regular.ttf");
+    }
+    @font-face {
+        font-family: Montserrat-Bold;
+        src: url("../res/fonts/Montserrat-Bold.ttf");
+    }
+    @font-face {
+        font-family: Montserrat-Medium;
+        src: url("../res/fonts/Montserrat-Medium.ttf");
+    }
 }
