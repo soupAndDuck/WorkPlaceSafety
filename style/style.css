@@ -138,7 +138,7 @@ h1 {
 }
 
 #section5{
-    body{
+    & body {
                  margin: 0;
                  padding: 0;
                  height: 100vh;
@@ -285,12 +285,18 @@ h1 {
 @media (max-width: 768px) and (orientation: portrait){
     h1{
         font-family: Monsterrat-Bold, sans-serif;
+        color: black;
+    }
+    h2{
+        color: black;
     }
     body{
         width: 100%;
         font-family: Montserrat-Regular, sans-serif;
-        background: #FFF9A6;
+        background: #16a085;
+        color: white;
     }
+
     nav{
         display: grid;
         background: white;
@@ -302,8 +308,9 @@ h1 {
     a{
         color: black;
     }
+
     a:hover{
-        color: lightpink;
+        color: #16a085;
     }
     .con1-icon {
         width: 90%;
@@ -312,7 +319,7 @@ h1 {
     .section{
         width: 90%;
         margin: auto;
-        background: #FFF9A6;
+        background: #16a085;
     }
     img {
         margin: 5px;
@@ -351,13 +358,14 @@ h1 {
         padding: 15px;
         border-radius: 10px;
         margin: 4px;
-        background: white;
+        background: lightgray;
         font-weight: bold;
+        color: black;
     }
     .mytabs .tab{
         width: 100%;
         padding: 20px;
-        background: peachpuff;
+        background: black;
         border-radius: 10px;
         order: 1;
         margin-top: 10px;
@@ -367,7 +375,8 @@ h1 {
         display: block;
     }
     .mytabs input[type = 'radio']:checked + label{
-        background: peachpuff;
+        background: black;
+        color: white;
     }
     @font-face {
         font-family: Montserrat-Regular;
