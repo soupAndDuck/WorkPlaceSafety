@@ -6,6 +6,14 @@ body{
     padding: 0;
     font-family: Arial, serif;
 }
+nav{
+    width: 100%;
+    display: grid;
+    background: #262626;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+}
 a:hover{
     color: orange;
     transition: color 1s;
@@ -25,29 +33,20 @@ ul{
 }
 .nav_links li{
     display: inline-block;
-    padding: 0 0;
+    padding: 0px 0%;
     text-align: center;
 }
 a{
     padding: 20px;
+    width: 100px;
     display: block;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
 }
-@media (max-width: 1536px) and (orientation: landscape){
-    nav{
-        width: 100%;
-        display: grid;
-        background: #262626;
-        overflow: hidden;
-        position: fixed;
-        top:0;
-    }
-
 #section1{
-    height: 655px;
+    height: 600px;
     background: white;
     display:inline-block;
     width: 100%;
@@ -95,7 +94,7 @@ img {
 
 #section3 {
     box-sizing: border-box;
-    height: auto;
+    height: 4500px;
     background: orange;
     display: inline-block;
     width: 100%;
@@ -122,7 +121,7 @@ img {
 
 #section4{
     box-sizing: border-box;
-        height: auto;
+        height: 1000px;
         background: orange;
         display: inline-block;
         width: 100%;
@@ -134,103 +133,21 @@ h1 {
     margin: 100px;
     text-align: center;
     padding: 0;
+
 }
-
 #section5{
-    & body {
-                 margin: 0;
-                 padding: 0;
-                 height: 100vh;
-                 display: flex;
-                 justify-content: center;
-                 align-items: center;
-                 font-family: "Roboto", sans-serif;
-                 background: #333;
-              }
-             .chart{
-                 width: 600px;
-                 height: 300px;
-                 display: block;
-             }
-             .numbers{
-                 color: #fff;
-                 margin: 0;
-                 padding: 0;
-                 width: 50px;
-                 height: 100%;
-                 display: inline-block;
-                 float: left;
-             }
+     height: 1000px;
+     background: orange;
+     display:inline-block;
+     width: 100%;
 
-             .numbers li{
-                 list-style: none;
-                 height: 150px;
-                 position: relative;
-                 bottom: 145px;
-             }
+}
+h1 {
+    margin: 100px;
+    text-align: center;
+    padding: 0;
 
-             .numbers span{
-                 font-size: 12px;
-                 font-weight: 600;
-                 position: absolute;
-                 bottom: 0;
-                 right: 10px;
-             }
-
-             .bars{
-                 color: #fff;
-                 font-size: 12px;
-                 font-weight: 600;
-                 background: #555;
-                 margin: 0;
-                 padding: 0;
-                 display: inline-block;
-                 width: 500px;
-                 height: 300px;
-                 box-shadow: 0 0 10px 0 #555;
-                 border-radius: 5px;
-             }
-
-             .bars li{
-                 display: table-cell;
-                 width: 100px;
-                 height: 300px;
-                 position: relative;
-             }
-
-             .bars span{
-                 width: 100%;
-                 position: absolute;
-                 bottom: -30px;
-                 text-align: center;
-             }
-             .bars .bar{
-                 display: block;
-                 background: #F1990B;
-                 width: 50px;
-                 height: 100px;
-                 position: absolute;
-                 bottom: 0;
-                 margin-left: 25px;
-                 text-align: center;
-                 box-shadow: 0 0 10px 0 rgba(241, 153, 11, 0.5);
-                 transition: 0.5s;
-                 transition-property: background, box-shadow;
-             }
-
-             .bars .bar:hover{
-                 background: orange;
-                 box-shadow: 0 0 10px 0 rgba(255, 195, 0, 0.5);
-                 cursor: pointer;
-             }
-
-             .bars .bar:before{
-                 color: #fff;
-                 content: attr(data-percentage) '%';
-                 position: relative;
-                 bottom: 20px;
-             }
-    }
+}
 .mytabs label:hover{
     background: #FFF9A6;
     transition: color 1s;
@@ -243,6 +160,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
 }
+
 .mytabs input[type="radio"]{
     display: none;
 }
@@ -264,6 +182,66 @@ h1 {
 .mytabs input[type = 'radio']:checked + label{
     background: yellow;
 }
+
+.main_container {
+    position: relative;
+    width: 25%;
+    overflow: hidden; /* Add this to hide overflowing content */
+    box-shadow: 0 0 50px yellow; /* Add glowing yellow neon effect */
+    border: 1px solid black; /* Add a black border */
+}
+
+.image32 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.importance1 {
+    display: flex;
+    background-color: orange;
+}
+
+.importance2 {
+    display: flex;
+    background-color: orange;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    height: 100%; /* Set initial height to 100% */
+    transform: scaleY(0); /* Scale the overlay vertically to 0 initially */
+    transform-origin: bottom; /* Transform origin at the bottom */
+    transition: transform 0.5s ease; /* Apply the transition to the transform property */
+    text-align: center;
+}
+
+.main_container:hover .overlay {
+    transform: scaleY(1); /* Scale the overlay vertically to 1 on hover */
+}
+
+.overlay h1 {
+    color: white;
+    font-family: Roboto-Bold;
+    transform: rotate(-5deg) skewX(-5deg); /* Apply the transform only to h1 */
+    margin: 0;
+    padding-top: 30px;
+}
+
+.overlay h2 {
+    color: white;
+    font-family: Roboto-Light;
+    margin: 0;
+    padding: 30px; /* Adjust padding to position text within the overlay */
+    text-align: justify;
+    font-size: large;
+}
+
 @font-face {
     font-family: Roboto-Regular;
     src: url("../res/fonts/Roboto-Regular.ttf");
@@ -279,114 +257,4 @@ h1 {
 @font-face {
     font-family: Roboto-Medium;
     src: url("../res/fonts/Roboto-Medium.ttf");
-}
-}
-@media (max-width: 768px) and (orientation: portrait){
-    h1{
-        font-family: Monsterrat-Bold, sans-serif;
-        color: black;
-    }
-    h2{
-        color: black;
-    }
-    body{
-        width: 100%;
-        font-family: Montserrat-Regular, sans-serif;
-        background: #16a085;
-        color: white;
-    }
-
-    nav{
-        display: grid;
-        background: white;
-        overflow: hidden;
-        top:0;
-        margin: auto;
-    }
-
-    a{
-        color: black;
-    }
-
-    a:hover{
-        color: #16a085;
-    }
-    .con1-icon {
-        width: 90%;
-    }
-
-    .section{
-        width: 90%;
-        margin: auto;
-        background: #16a085;
-    }
-    img {
-        margin: 5px;
-        padding-right: 50px;
-        display: block;
-        width: 80%;
-    }
-    table{
-        table-layout: fixed;
-        overflow-x: auto;
-        display: block;
-    }
-    .safety-first{
-        float: none;
-        padding-right: 0;
-        margin: auto;
-        border-radius: 10px;
-        width: 100%;
-    }
-    .mytabs label:hover{
-        background: #FFF9A6;
-        transition: color 1s;
-        cursor: pointer;
-    }
-    .mytabs label:active{
-        opacity: 0.7;
-    }
-    .mytabs{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .mytabs input[type="radio"]{
-        display: none;
-    }
-    .mytabs label{
-        padding: 15px;
-        border-radius: 10px;
-        margin: 4px;
-        background: lightgray;
-        font-weight: bold;
-        color: black;
-    }
-    .mytabs .tab{
-        width: 100%;
-        padding: 20px;
-        background: black;
-        border-radius: 10px;
-        order: 1;
-        margin-top: 10px;
-        display: none;
-    }
-    .mytabs input[type = 'radio']:checked + label + .tab{
-        display: block;
-    }
-    .mytabs input[type = 'radio']:checked + label{
-        background: black;
-        color: white;
-    }
-    @font-face {
-        font-family: Montserrat-Regular;
-        src: url("../res/fonts/Montserrat-Regular.ttf");
-    }
-    @font-face {
-        font-family: Montserrat-Bold;
-        src: url("../res/fonts/Montserrat-Bold.ttf");
-    }
-    @font-face {
-        font-family: Montserrat-Medium;
-        src: url("../res/fonts/Montserrat-Medium.ttf");
-    }
 }
