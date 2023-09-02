@@ -1,12 +1,12 @@
 /* HTML */
 
 @font-face {
-    font-family: PublicSans;
+    font-family: publicSans;
     src: url("/res/fonts/PublicSans-Regular.ttf");
 }
 
 @font-face {
-    font-family: Monsterrat;
+    font-family: monsterrat;
     src: url("/res/fonts/Montserrat-Regular.ttf");
 }
 
@@ -17,7 +17,7 @@ html {
 body {
     width: 100%;
     margin: 0;
-    font-family: PublicSans, serif;
+    font-family: publicSans, serif;
     text-align: center;
     position: absolute;
 }
@@ -103,7 +103,7 @@ body {
 #section1 h1 {
     text-align: center;
     font-size: 40px;
-    font-family: PublicSans, serif;
+    font-family: publicSans, serif;
 }
 
 .intro p {
@@ -470,7 +470,7 @@ body {
         background: #143873;
     }
     body {
-        font-family: Monsterrat, sans-serif;
+        font-family: monsterrat, sans-serif;
         color: white;
     }
 
@@ -495,7 +495,7 @@ body {
         width: 100%;
     }
     #section1 h1 {
-        font-family: Monsterrat, sans-serif;
+        font-family: monsterrat, sans-serif;
         font-size: 40px;
         color: #77b5d9;
     }
@@ -508,13 +508,13 @@ body {
 
     /* SECTION 2 SAFETY */
     #section2 h1 {
-        font-family: Monsterrat, sans-serif;
+        font-family: monsterrat, sans-serif;
         font-size: 50px;
         color: #77b5d9;
     }
 
     #section2 h2 {
-        font-family: Monsterrat, sans-serif;
+        font-family: monsterrat, sans-serif;
         font-size: 40px;
         text-align: center;
         color: white;
