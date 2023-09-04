@@ -464,7 +464,7 @@ body {
 
 /* MEDIA QUERY */
 
-@media (max-width: 750px) and (orientation: portrait) {
+@media (min-width: 736px) and (orientation: portrait) {
 
     html {
         background: #143873;
